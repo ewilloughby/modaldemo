@@ -32,5 +32,5 @@
 </div>
 
 <p>
-    <%= link_to "New item", new_item_path, class: "btn btn-primary"%>
+  <%= link_to "New item", new_item_path, class: "btn btn-primary", data: { turbo_frame: "remote_modal" }%>
 </p>
